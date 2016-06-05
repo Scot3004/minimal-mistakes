@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "es-CO"
+title                    : "Scot3004"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
@@ -63,34 +63,34 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Sergio C. Orozco Torres"
+  avatar           : "logo.png"
+  bio              : "try{<br/> hacer_algo() <br/>} catch {<br/> corregir() <br/>} finally {<br/> aprender() <br/>}"
+  location         : "Barranquilla - CO"
   email            :
-  uri              :
-  bitbucket        :
-  codepen          :
+  uri              : https://www.scot3004.xyz
+  bitbucket        : 
+  codepen          : scot3004
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : scot3004
   foursquare       :
-  github           :
+  github           : scot3004
   google_plus      :
   keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
+  instagram        : scot3004
+  lastfm           : scot3004
+  linkedin         : 
   pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          :
+  soundcloud       : scot3004
+  stackoverflow    : http://stackoverflow.com/users/2638893/scot3004
+  steam            : scot3004
+  tumblr           : scot3004
+  twitter          : scot3004
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : scot3004
 
 
 # Reading Files
@@ -206,3 +206,16 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
